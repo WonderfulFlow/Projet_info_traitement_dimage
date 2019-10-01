@@ -1,0 +1,6 @@
+C:\Users\mendu\OneDrive\Documents\SharpDevelop Projects\projet info\projet info\bin\Debug\projet info.exe.config
+C:\Users\mendu\OneDrive\Documents\SharpDevelop Projects\projet info\projet info\bin\Debug\projet info.exe
+C:\Users\mendu\OneDrive\Documents\SharpDevelop Projects\projet info\projet info\bin\Debug\projet info.pdb
+C:\Users\mendu\OneDrive\Documents\SharpDevelop Projects\projet info\projet info\obj\Debug\projet info.csprojResolveAssemblyReference.cache
+C:\Users\mendu\OneDrive\Documents\SharpDevelop Projects\projet info\projet info\obj\Debug\projet info.exe
+C:\Users\mendu\OneDrive\Documents\SharpDevelop Projects\projet info\projet info\obj\Debug\projet info.pdb

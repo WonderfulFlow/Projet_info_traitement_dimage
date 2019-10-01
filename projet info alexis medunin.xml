@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>projet info</name>
+    </assembly>
+    <members>
+        <member name="T:projet_info.Bitmap">
+            <summary>
+            Description of Bitmap.
+            </summary>
+        </member>
+        <member name="M:projet_info.Bitmap.change_color(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            channge la couleur d'un pixel en une autre couleur
+            </summary>
+            <param name="Rouge"></param>
+            <param name="Vert"></param>
+            <param name="Bleu"></param>
+        </member>
+        <member name="M:projet_info.Bitmap.nuanceDeGris">
+            <summary>
+            fais la moyenne des couleur d'un pixel afin de creer des nuances de gris
+            </summary>
+        </member>
+        <member name="M:projet_info.Bitmap.colortab">
+            <summary>
+            fais un tableau de couleur
+            </summary>
+        </member>
+        <member name="M:projet_info.Bitmap.conversion_binaire(System.Byte[])">
+            <summary>
+            permet de convertir un tableau de byte en entier ou un entier en Byte
+            </summary>
+            <param name="tab"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_info.Bitmap.recuperer_taille(System.Byte[],System.Int32)">
+            <summary>
+            recupere la taille de l'image avec un index de départ
+            </summary>
+            <param name="tab"></param>
+            <param name="demarage"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_info.Bitmap.construction_image">
+            <summary>
+            permet de construir l'image en créant un tableau de byte
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:projet_info.Bitmap.afficher_les_octets">
+            <summary>permet d'afficher le header d'une imagee
+            
+            </summary>
+        </member>
+        <member name="M:projet_info.Bitmap.croix(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            permet de faire une croix d'une certaine couleur dans une image
+            </summary>
+            <param name="R"></param>
+            <param name="G"></param>
+            <param name="B"></param>
+        </member>
+        <member name="M:projet_info.Bitmap.croix(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            permet de faire une croix d'epaisseur >1
+            </summary>
+            <param name="R"></param>
+            <param name="G"></param>
+            <param name="B"></param>
+            <param name="grosseur"></param>
+        </member>
+        <member name="M:projet_info.Bitmap.sablier(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            permet de faire un entrelacement sur une image de taille variable avec une fond totalement dé-unis
+            </summary>
+            <param name="R"></param>
+            <param name="G"></param>
+            <param name="B"></param>
+        </member>
+        <member name="M:projet_info.Bitmap.construction_image(System.Int32,System.Int32)">
+            <summary>
+            permet de construire une image avec des parametres de taille existant
+            </summary>
+            <param name="Height"></param>
+            <param name="Width"></param>
+            <returns></returns>
+        </member>
+        <member name="M:projet_info.Bitmap.menu">
+            <summary>
+            le menue ou l'on peut selectionner quoi faire
+            </summary>
+        </member>
+        <member name="M:projet_info.Bitmap.projet_perso">
+            <summary>
+            mon inovation, consistant à creer une matrice de convolution aléatoire et a l'appliquer à une image
+            </summary>
+        </member>
+        <member name="M:projet_info.Bitmap.matrice_de_conv(System.Int32[0:,0:])">
+            <summary>
+            applique un effet en utilisant une matrice de convolution
+            </summary>
+            <param name="mat"></param>
+        </member>
+        <member name="T:projet_info.couleur">
+            <summary>
+            Description of couleur.
+            </summary>
+        </member>
+        <member name="M:projet_info.Program.Main(System.String[])">
+            <summary>
+            
+            
+            </summary>
+            <param name="args"></param>
+            
+        </member>
+    </members>
+</doc>
